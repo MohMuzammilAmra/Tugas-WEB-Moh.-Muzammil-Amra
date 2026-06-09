@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio 5 Tahun Mendatang</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background:#e5e5e5;
+            padding:20px;
+        }
+
+        .container{
+            max-width:1200px;
+            margin:auto;
+            background:white;
+            border-radius:10px;
+            overflow:hidden;
+            box-shadow:0 3px 10px rgba(0,0,0,0.2);
+        }
+
+        /* HEADER */
+        .header{
+            display:flex;
+        }
+
+        .foto{
+            width:35%;
+        }
+
+        .foto img{
+            width:100%;
+            height:250px;
+            object-fit:cover;
+        }
+
+        .identitas{
+            width:65%;
+            background:linear-gradient(to right, orange, black);
+            color:white;
+            text-align:center;
+            padding:50px 20px;
+        }
+
+        .identitas h1{
+            margin-bottom:10px;
+        }
+
+        .identitas p{
+            font-size:22px;
+            margin:5px;
+        }
+
+        /* CONTENT */
+        .content{
+            display:flex;
+        }
+
+        .sidebar{
+            width:35%;
+            background:#f4b400;
+            padding:20px;
+        }
+
+        .sidebar h2{
+            text-align:center;
+            margin-bottom:20px;
+        }
+
+        .box{
+            background:#fff;
+            padding:15px;
+            border-radius:10px;
+            margin-bottom:15px;
+        }
+
+        .box h3{
+            color:#ff6600;
+            margin-bottom:10px;
+        }
+
+        .main{
+            width:65%;
+            background:#111;
+            color:white;
+            padding:25px;
+        }
+
+        .main h2{
+            color:gold;
+            margin-bottom:15px;
+        }
+
+        .main p{
+            text-align:justify;
+            line-height:1.8;
+            margin-bottom:20px;
+        }
+
+        /* FOOTER */
+        .footer{
+            background:black;
+            color:white;
+            text-align:center;
+            padding:15px;
+            font-size:22px;
+            font-weight:bold;
+        }
+
+        @media(max-width:768px){
+            .header,
+            .content{
+                flex-direction:column;
+            }
+
+            .foto,
+            .identitas,
+            .sidebar,
+            .main{
+                width:100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Header -->
+    <div class="header">
+        <div class="foto">
+            <img src="Orang Baek.jpeg" alt="Foto Profil">
+        </div>
+
+        <div class="identitas">
+            <h1>Moh. Muzammil Amra</h1>
+            <p>NIM : 701250327</p>
+            <p>Kelas : H</p>
+            <p>Tugas Pemrograman Web</p>
+        </div>
+    </div>
+
+    <!-- Isi -->
+    <div class="content">
+
+        <div class="sidebar">
+            <h2>Profil</h2>
+
+            <div class="box">
+                <h3>Profil</h3>
+                <p><b>Nama:</b> Moh. Muzammil Amra</p>
+                <p><b>TTL:</b> Mendahara Ilir, 24-11-2007</p>
+            </div>
+
+            <div class="box">
+                <h3>Riwayat Pendidikan</h3>
+                <p>Tamatan SMAN 7 Tanjab Timur</p>
+                <p>Sekarang berkuliah di Universitas Sultan Thaha Saifuddin Jambi</p>
+                <p>Fakultas Sains Dan Teknologi Prodi Sistem Informasi</p>
+            </div>
+
+            <div class="box">
+                <h3>Organisasi</h3>
+                <p>Pramuka : saat masih di SMA</p>
+                <p>OSIS : saat masih di SMA</p>
+            </div>
+
+            <div class="box">
+                <h3>Pengalaman Kerja</h3>
+                <p>Belum pernah bekerja</p>
+            </div>
+
+            <div class="box">
+                <h3>Karya Tulis / Produk</h3>
+                <p>Belum ada</p>
+            </div>
+        </div>
+
+        <div class="main">
+            <h2>Portofolio Diri 5 Tahun Mendatang</h2>
+
+            <p>
+                Nama saya Moh. Muzammil Amra. Lima tahun dari sekarang saya
+                ingin menjadi seorang profesional di bidang teknologi
+                informasi yang memiliki kemampuan dalam pemrograman,
+                pengembangan website, dan desain digital.
+            </p>
+
+            <p>
+                Saya berharap dapat bekerja sebagai Programmer atau Web
+                Developer pada perusahaan teknologi yang berkembang serta
+                membangun usaha digital sendiri yang bergerak dalam bidang
+                pembuatan website dan aplikasi.
+            </p>
+
+            <p>
+                Target saya adalah menjadi pribadi yang sukses, mandiri
+                secara finansial, dan mampu memberikan manfaat bagi
+                masyarakat serta keluarga melalui ilmu yang saya miliki.
+            </p>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        "Tetap Lah Bersyukur Apa Pun Yang Terjadi Di Hidup Ini"
+    </div>
+
+</div>
+
+</body>
+</html>
